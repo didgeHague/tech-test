@@ -4,9 +4,6 @@ import org.scalatra._
 
 class TechTestApi extends ScalatraServlet {
 
-  val searchKey = "AIzaSyAc3heo3mrVByUG9PZuOxw6_0l9fK9SoLs"
-  val cse = "37972183bae83bf19"
-
   get("/") {
     views.html.hello()
   }
